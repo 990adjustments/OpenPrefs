@@ -20,6 +20,7 @@ from c4d import storage
 
 
 def main():
+    # This is all! A simple one liner! :)
     storage.ShowInFinder(storage.GeGetC4DPath(c4d.C4D_PATH_PREFS))
 
 if __name__=='__main__':
